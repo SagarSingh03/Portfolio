@@ -8,8 +8,8 @@ function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult('Sending the message...');
-    const formData = new FormData(event.target);
 
+    const formData = new FormData(event.target);
     formData.append('access_key', 'c0ee2f16-95ea-4144-bf29-868615310154');
 
     try {
@@ -25,11 +25,11 @@ function Contact() {
         event.target.reset();
       } else {
         console.log('Error', data);
-        setResult(data.message || 'Failed to submit the form. Please try again.');
+        setResult(data.message || 'Failed to submit the form.');
       }
     } catch (error) {
       console.error('Fetch error:', error);
-      setResult('An error occurred. Please check your connection and try again.');
+      setResult('Something went wrong. Try again.');
     }
   };
 
@@ -37,13 +37,19 @@ function Contact() {
     <div className="contact-page">
       <div className="contact">
         <h1>Contact</h1>
-        <img src={profile} alt="Sagar's charcoal sketch" className="contact-image" />
+
+        <img
+          src={profile}
+          alt="Sagar profile"
+          className="contact-image"
+        />
+
         <p>
-          I'm always excited to connect and explore new ideas, collaborations, <br />
+          I'm always excited to connect and explore new ideas, collaborations,
           or simply have a great conversation. <br />
           Got a question or just want to say hello? <br />
           Drop me a line at <strong>sagarsingh3b@gmail.com</strong> or{' '}
-          <strong>+91-9864134992</strong>, or use the form below — I'd love to hear from you!
+          <strong>+91-9864134992</strong>, or use the form below.
         </p>
       </div>
 
@@ -77,7 +83,9 @@ function Contact() {
             placeholder="Your message..."
             required
           />
+
           <span className="result-message">{result}</span>
+
           <button type="submit">Send Message</button>
         </form>
       </div>
@@ -85,9 +93,4 @@ function Contact() {
   );
 }
 
-<<<<<<< HEAD
 export default Contact;
-=======
-export default Contact;
-
->>>>>>> b6a34ea (Commit)

@@ -33,15 +33,14 @@ const projectList = [
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://rock-paper-scissor-uigame.netlify.app/"
   },
-<<<<<<< HEAD
-=======
+
    {
     title: "Wall Calendar",
     description: "Built an interactive wall calendar in React with date range selection, notes feature, and responsive UI.",
     tech: ["HTML", "CSS", "JavaScript", "React"],
     link: "https://calendarwall.netlify.app/"
   },
->>>>>>> b6a34ea (Commit)
+
 ]
 
 function Projects() {

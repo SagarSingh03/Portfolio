@@ -7,8 +7,12 @@ function Skill() {
       <div className="skills-list">
         <strong>Skills</strong>
         <br />
-        <p className="quote">"Progress is not an accident, but a necessity." — Herbert Spencer</p>
-        <p className="quote2">I Believe in evolving through CONSTANT learning AND improving</p>
+        <p className="quote">
+          "Progress is not an accident, but a necessity." — Herbert Spencer
+        </p>
+        <p className="quote2">
+          I Believe in evolving through CONSTANT learning AND improving
+        </p>
       </div>
 
       <div className="skills-container">
@@ -23,29 +27,21 @@ function Skill() {
         <span className="skill-tag" id="vs-code">VS Code</span>
         <span className="skill-tag" id="replit">REPLIT</span>
         <span className="skill-tag" id="canva">CANVA</span>
-<<<<<<< HEAD
-        <span className="skill-tag" id="python">Python</span>
-        <span className="skill-tag" id="c">C</span>
-        <span className="skill-tag" id="cpp">C++</span>
-=======
+
         <span className="skill-tag" id="java">Java</span>
->>>>>>> b6a34ea (Commit)
         <span className="skill-tag" id="operating-system">Operating System</span>
         <span className="skill-tag" id="computer-networks">Computer Networks</span>
         <span className="skill-tag" id="es6">ES6</span>
         <span className="skill-tag" id="redux">Redux</span>
         <span className="skill-tag" id="bootstrap">BootStrap</span>
         <span className="skill-tag" id="tailwind">Tailwind</span>
-<<<<<<< HEAD
-=======
-         <span className="skill-tag" id="DSA">Data Structures and Algorithms</span>
-         <span className="skill-tag" id="sdlc">Software Development LifeCycle</span>
-          <span className="skill-tag" id="sql">SQL(MySQL)</span>
->>>>>>> b6a34ea (Commit)
+
+        <span className="skill-tag" id="dsa">Data Structures and Algorithms</span>
+        <span className="skill-tag" id="sdlc">Software Development LifeCycle</span>
+        <span className="skill-tag" id="sql">SQL (MySQL)</span>
       </div>
     </div>
   );
 }
 
 export default Skill;
-

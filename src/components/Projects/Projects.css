@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-.Projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgb(250, 48, 48);
-  font-size: 4rem;
-  padding: 50px 20px;
-  margin-top: 65px;
-}
-
-.Projects h1 {
-  margin: 0;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-=======
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 .Projects {
@@ -43,37 +26,10 @@
   background: linear-gradient(90deg, #7c3aed, #818cf8);
   border-radius: 2px;
   margin: 14px auto 0;
->>>>>>> b6a34ea (Commit)
 }
 
 .projects-grid {
   display: grid;
-<<<<<<< HEAD
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  width: 100%;
-  max-width: 1000px;
-}
-
-.project-card {
-  background: #f4f4f4;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card h2 {
-  margin-bottom: 10px;
-  font-size: 1.5rem;
-  color: black;
-=======
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
 }
@@ -130,116 +86,10 @@
 .project-card p strong {
   color: #6d5fa0;
   font-weight: 500;
->>>>>>> b6a34ea (Commit)
 }
 
 .project-card a {
   display: inline-block;
-<<<<<<< HEAD
-  margin-top: 10px;
-  color: white;
-  background: rgb(7, 178, 241);
-  padding: 8px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.project-card a:hover {
-  background: rgb(236, 3, 3);
-}
-
-/* -------------------- 📱 Responsive Design -------------------- */
-
-/* For laptops and smaller desktops */
-@media (max-width: 1024px) {
-  .Projects {
-    font-size: 3rem;
-    padding: 40px 15px;
-    margin-top: 60px;
-  }
-
-  .project-card {
-    font-size: 0.95rem;
-    padding: 18px;
-  }
-
-  .project-card h2 {
-    font-size: 1.4rem;
-  }
-}
-
-/* For tablets (portrait and small landscape) */
-@media (max-width: 768px) {
-  .Projects {
-    font-size: 2.5rem;
-    margin-top: 50px;
-    padding: 30px 10px;
-  }
-
-  .projects-grid {
-    gap: 15px;
-  }
-
-  .project-card {
-    padding: 16px;
-    font-size: 0.9rem;
-  }
-
-  .project-card h2 {
-    font-size: 1.3rem;
-  }
-
-  .project-card a {
-    padding: 6px 10px;
-    font-size: 0.9rem;
-  }
-}
-
-/* For mobile devices (max 600px) */
-@media (max-width: 600px) {
-  .Projects {
-    font-size: 2rem;
-    margin-top: 40px;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .project-card {
-    padding: 14px;
-    font-size: 0.85rem;
-  }
-
-  .project-card h2 {
-    font-size: 1.2rem;
-  }
-}
-
-/* For small mobile screens */
-@media (max-width: 480px) {
-  .Projects {
-    font-size: 1.8rem;
-    margin-top: 35px;
-  }
-
-  .project-card {
-    padding: 12px;
-    font-size: 0.8rem;
-  }
-
-  .project-card h2 {
-    font-size: 1.1rem;
-  }
-
-  .project-card a {
-    padding: 5px 9px;
-    font-size: 0.85rem;
-  }
-}
-=======
   margin-top: 6px;
   padding: 9px 20px;
   font-size: 0.82rem;
@@ -258,4 +108,3 @@
   border-color: #8b5cf6;
   color: #ede9fe;
 }
->>>>>>> b6a34ea (Commit)

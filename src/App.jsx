@@ -1,13 +1,16 @@
-import React from 'react'
-import './App.css'
-import Footer from './components/Footer/Footer'
-import Navbar from './components/Navbar/Navbar'
-import Header from './components/Header/Header'
-import Skill from './components/Skills/Skill'
-import Contact from './components/Contact/Contact'
-import Education from './components/Education/Education'
-import Projects from './components/Projects/Projects'
-import { Element } from 'react-scroll'
+import React from 'react';
+import './App.css';
+
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import Skill from './components/Skills/Skill';
+import Contact from './components/Contact/Contact';
+import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
+
+import { Element } from 'react-scroll';
+
 function App() {
   return (
     <div className="App">
@@ -34,10 +37,8 @@ function App() {
       </Element>
 
       <Footer />
-
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;

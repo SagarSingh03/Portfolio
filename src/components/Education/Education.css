@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 .education h1{
     display: flex;
     justify-content: center;
@@ -38,8 +39,8 @@
     margin-top: 100px;
   }
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
 
 .education {
   background: #07071a;
@@ -100,4 +101,4 @@
   box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.15) !important;
   margin: 6px 0 !important;
 }
->>>>>>> b6a34ea (Commit)
+
