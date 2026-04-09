@@ -7,7 +7,7 @@ This project showcases my work, skills, and passion as a **Frontend Developer**,
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio](#) *https://sagarsingh03.github.io/Portfolio-SagarSingh03/*
+👉 [View Portfolio](#) *https://sagar-portfolio-singh.netlify.app/*
 
 ---
 
