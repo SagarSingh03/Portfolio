@@ -1,5 +1,6 @@
 import * as React from 'react';
-import './Education.css'
+import './Education.css';
+
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -13,6 +14,7 @@ export default function Education() {
       <h1>Education</h1>
 
       <Timeline position="alternate">
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="secondary" />
@@ -20,7 +22,7 @@ export default function Education() {
           </TimelineSeparator>
           <TimelineContent>
             <strong>B.Tech (2021-2025)</strong>
-            <br /> Kalinga Institute of Industrial Technology
+            Kalinga Institute of Industrial Technology
           </TimelineContent>
         </TimelineItem>
 
@@ -30,9 +32,8 @@ export default function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <strong>Higher Secondary Education Intermediate</strong> <br />
-            <strong>Secondary Education Matriculation</strong> <br />
-            Hindustani Kendriya Vidyalaya Guwahati, Assam
+            <strong>Higher Secondary & Matriculation</strong>
+            Hindustani Kendriya Vidyalaya, Guwahati
           </TimelineContent>
         </TimelineItem>
 
@@ -42,8 +43,8 @@ export default function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <strong>Upper Primary Education</strong> <br />
-            Manas Valley Academy Barpeta Road, Assam
+            <strong>Upper Primary</strong>
+            Manas Valley Academy, Assam
           </TimelineContent>
         </TimelineItem>
 
@@ -53,8 +54,8 @@ export default function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <strong>Middle Primary Education</strong> <br />
-            Chapra Central School, Chapra Saran Bihar
+            <strong>Middle Primary</strong>
+            Chapra Central School, Bihar
           </TimelineContent>
         </TimelineItem>
 
@@ -64,28 +65,21 @@ export default function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <strong>Primary Education</strong> <br />
-            Holy Family School, Chapra Mehiya Bihar
+            <strong>Primary</strong>
+            Holy Family School, Bihar
           </TimelineContent>
         </TimelineItem>
 
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="warning" />
-            <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <strong>Pre-Primary Education</strong> <br />
-            Kendriya Vidyalaya, Navi Mumbai Maharashtra
+            <strong>Pre-Primary</strong>
+            Kendriya Vidyalaya, Navi Mumbai
           </TimelineContent>
         </TimelineItem>
 
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot sx={{ bgcolor: "black" }} />
-          </TimelineSeparator>
-          <TimelineContent />
-        </TimelineItem>
       </Timeline>
     </div>
   );
