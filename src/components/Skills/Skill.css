@@ -1,0 +1,371 @@
+<<<<<<< HEAD
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  color: #272323;
+  background-color: #fffefe;
+}
+
+.skills-list strong {
+  font-size: 7rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  color: #f02626;
+  margin-bottom: 10px;
+}
+
+.skills-list p {
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #784a4a;
+  margin: 0;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  color: #8A2BE2; /* Unique vibrant violet */
+  margin: 10px 0;
+  padding: 5px 15px;
+  background: linear-gradient(90deg, rgba(138, 43, 226, 0.1), rgba(138, 43, 226, 0)); /*learn it */
+  border-left: 4px solid #8A2BE2;
+  border-radius:  4px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.quote:hover {
+  color: #6A1AB2; 
+  transform: scale(1.02); 
+}
+
+.quote2{
+  font-size: 1.8rem;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  color:#4ECDC4;
+  margin: 10px 0;
+  padding: 5px 15px;
+  background: linear-gradient(-90deg, rgba(60, 195, 232, 0.1), rgba(61, 178, 158, 0));
+  border-right: 4px solid #4ECDC4;
+  border-radius: 4px;
+}
+
+.quote2:hover{
+  color: #4ECDC4;
+  transform: scale(1.02);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 15px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.skill-tag {
+  background-color: #ffffff;
+  color: #272323;
+  padding: 0.5rem 1.2rem;
+  border-radius: 9999px;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.skill-tag:hover {
+  transform: scale(1.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#html:hover {
+  background-color: #FF6B6B;
+  color: #ffffff;
+}
+
+#css:hover {
+  background-color: #4ECDC4;
+  color: #ffffff;
+}
+
+#javascript:hover {
+  background-color: #45B7D1;
+  color: #ffffff;
+}
+
+#react:hover {
+  background-color: #F7D794;
+  color: #272323;
+}
+
+#git:hover {
+  background-color: #9B59B6;
+  color: #ffffff;
+}
+
+#github:hover {
+  background-color: #3498DB;
+  color: #ffffff;
+}
+
+#mui:hover {
+  background-color: #E74C3C;
+  color: #ffffff;
+}
+
+#firebase:hover {
+  background-color: #2ECC71;
+  color: #ffffff;
+}
+
+#vs-code:hover {
+  background-color: #F1C40F;
+  color: #272323;
+}
+
+#replit:hover {
+  background-color: #8E44AD;
+  color: #ffffff;
+}
+
+#canva:hover {
+  background-color: #D35400;
+  color: #ffffff;
+}
+
+#python:hover {
+  background-color: #1ABC9C;
+  color: #ffffff;
+}
+
+#c:hover {
+  background-color: #E67E22;
+  color: #ffffff;
+}
+
+#cpp:hover {
+  background-color: #16A085;
+  color: #ffffff;
+}
+
+#operating-system:hover {
+  background-color: #F39C12;
+  color: #ffffff;
+}
+
+#computer-networks:hover {
+  background-color: #C0392B;
+  color: #ffffff;
+}
+
+#es6:hover {
+  background-color: #BDC3C7;
+  color: #272323;
+}
+
+#redux:hover {
+  background-color: #7F8C8D;
+  color: #ffffff;
+}
+
+#bootstrap:hover {
+  background-color: #27AE60;
+  color: #ffffff;
+}
+
+#tailwind:hover {
+  background-color: #2980B9;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .skills-list {
+    margin-top: 8rem;
+  }
+
+  .skills-list strong {
+    font-size: 5rem;
+  }
+
+  .skills-list p {
+    font-size: 1.2rem;
+  }
+
+  .skill-tag {
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-list {
+    margin-top: 6rem;
+    padding: 0 15px;
+  }
+
+  .skills-list strong {
+    font-size: 3.5rem;
+  }
+
+  .skills-list p {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    gap: 10px;
+    padding: 0 15px;
+  }
+
+  .skill-tag {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-list {
+    margin-top: 4rem;
+    padding: 0 10px;
+  }
+
+  .skills-list strong {
+    font-size: 2.5rem;
+  }
+
+  .skills-list p {
+    font-size: 0.9rem;
+  }
+
+  .skills-container {
+    gap: 8px;
+    padding: 0 10px;
+  }
+
+  .skill-tag {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.skills-list {
+  background: #07071a;
+  padding: 80px 7% 24px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.skills-list strong {
+  display: block;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: #f1eeff;
+  letter-spacing: -0.5px;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.skills-list strong::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #7c3aed, #818cf8);
+  border-radius: 2px;
+  margin: 14px auto 0;
+}
+
+.quote {
+  font-size: 0.95rem;
+  color: #6d5fa0;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 10px;
+  letter-spacing: 0.2px;
+}
+
+.quote2 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(139, 92, 246, 0.6);
+  margin-top: 8px;
+}
+
+.skills-container {
+  background: #07071a;
+  padding: 20px 7% 90px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.skill-tag {
+  padding: 9px 20px;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+}
+
+/* Core web */
+#html   { background: rgba(229, 77, 38, 0.12);  color: #f97316; border-color: rgba(249, 115, 22, 0.3); }
+#css    { background: rgba(56, 113, 205, 0.12);  color: #60a5fa; border-color: rgba(96, 165, 250, 0.3); }
+#javascript { background: rgba(234, 179, 8, 0.12); color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+#react  { background: rgba(34, 211, 238, 0.1);   color: #22d3ee; border-color: rgba(34, 211, 238, 0.3); }
+#es6    { background: rgba(234, 179, 8, 0.1);    color: #f59e0b; border-color: rgba(245, 158, 11, 0.3); }
+
+/* Frameworks / UI */
+#mui        { background: rgba(25, 118, 210, 0.12); color: #60a5fa; border-color: rgba(96, 165, 250, 0.3); }
+#bootstrap  { background: rgba(130, 80, 255, 0.12); color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); }
+#tailwind   { background: rgba(6, 182, 212, 0.1);   color: #38bdf8; border-color: rgba(56, 189, 248, 0.3); }
+#redux      { background: rgba(118, 74, 188, 0.12); color: #c084fc; border-color: rgba(192, 132, 252, 0.3); }
+
+/* Tools / Version control */
+#git        { background: rgba(240, 80, 30, 0.1);   color: #fb923c; border-color: rgba(251, 146, 60, 0.3); }
+#github     { background: rgba(180, 180, 200, 0.1); color: #cbd5e1; border-color: rgba(203, 213, 225, 0.25); }
+#firebase   { background: rgba(255, 160, 0, 0.1);   color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+#vs-code    { background: rgba(0, 122, 204, 0.1);   color: #60a5fa; border-color: rgba(96, 165, 250, 0.25); }
+#replit     { background: rgba(246, 111, 84, 0.1);  color: #fb923c; border-color: rgba(251, 146, 60, 0.25); }
+#canva      { background: rgba(0, 196, 204, 0.1);   color: #2dd4bf; border-color: rgba(45, 212, 191, 0.3); }
+
+/* Languages */
+
+
+#java    { background: rgba(0, 89, 179, 0.12);    color: #7dd3fc; border-color: rgba(125, 211, 252, 0.3); }
+
+/* CS fundamentals */
+#operating-system   { background: rgba(139, 92, 246, 0.1);  color: #c4b5fd; border-color: rgba(196, 181, 253, 0.3); }
+#computer-networks  { background: rgba(52, 211, 153, 0.1);  color: #34d399; border-color: rgba(52, 211, 153, 0.3); }
+#DSA { background: rgba(255, 160, 0, 0.1);   color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); }
+#sdlc { background: rgba(55, 118, 171, 0.12); color: #60a5fa; border-color: rgba(96, 165, 250, 0.3); }
+#sql      { background: rgba(100, 100, 180, 0.1);  color: #818cf8; border-color: rgba(129, 140, 248, 0.3); }
+>>>>>>> b6a34ea (Commit)
