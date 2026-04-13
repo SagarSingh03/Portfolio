@@ -18,7 +18,7 @@ const projectList = [
     title: "BlueBrick Real-Estate",
     description: "Developed a responsive front-end real estate website for Bluebrick, featuring modern UI, property listings, and smooth navigation.",
     tech: ["React", "Vite", "CSS", "JavaScript", "MUI"],
-    link: "https://bluebrick-real-estate-frontend-ui.netlify.app/"
+    link: "https://bluebrick-realestate-website.netlify.app/"
   },
  
   {
